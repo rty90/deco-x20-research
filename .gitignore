@@ -1,0 +1,18 @@
+# secrets & network fingerprints — never commit
+*.pem
+*.key
+*hash*.txt
+*.ppk
+profile_decoded*.txt
+*group-info*
+mqtt_topics.log
+responder*.log
+inject1905.log
+cap1905.log
+
+# firmware blobs (too big / redistribute via TP-Link official downloads)
+*.bin
+*.zip
+*.tar.gz
+fw/
+x20_root/
